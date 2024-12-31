@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alperen\\source\\repos\\MiniOgrenciBilgiSistemi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E65D402-E9C8-44C4-91D7-A4DFA00AB82F}|MiniOgrenciBilgiSistemi\\MiniOgrenciBilgiSistemi.csproj|c:\\users\\alperen\\source\\repos\\miniogrencibilgisistemi\\miniogrencibilgisistemi\\ogrenciyonetimdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E65D402-E9C8-44C4-91D7-A4DFA00AB82F}|MiniOgrenciBilgiSistemi\\MiniOgrenciBilgiSistemi.csproj|solutionrelative:miniogrencibilgisistemi\\ogrenciyonetimdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E65D402-E9C8-44C4-91D7-A4DFA00AB82F}|MiniOgrenciBilgiSistemi\\MiniOgrenciBilgiSistemi.csproj|c:\\users\\alperen\\source\\repos\\miniogrencibilgisistemi\\miniogrencibilgisistemi\\models\\ogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E65D402-E9C8-44C4-91D7-A4DFA00AB82F}|MiniOgrenciBilgiSistemi\\MiniOgrenciBilgiSistemi.csproj|solutionrelative:miniogrencibilgisistemi\\models\\ogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E65D402-E9C8-44C4-91D7-A4DFA00AB82F}|MiniOgrenciBilgiSistemi\\MiniOgrenciBilgiSistemi.csproj|c:\\users\\alperen\\source\\repos\\miniogrencibilgisistemi\\miniogrencibilgisistemi\\models\\ogrenciders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E65D402-E9C8-44C4-91D7-A4DFA00AB82F}|MiniOgrenciBilgiSistemi\\MiniOgrenciBilgiSistemi.csproj|solutionrelative:miniogrencibilgisistemi\\models\\ogrenciders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E65D402-E9C8-44C4-91D7-A4DFA00AB82F}|MiniOgrenciBilgiSistemi\\MiniOgrenciBilgiSistemi.csproj|c:\\users\\alperen\\source\\repos\\miniogrencibilgisistemi\\miniogrencibilgisistemi\\models\\ders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E65D402-E9C8-44C4-91D7-A4DFA00AB82F}|MiniOgrenciBilgiSistemi\\MiniOgrenciBilgiSistemi.csproj|solutionrelative:miniogrencibilgisistemi\\models\\ders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E65D402-E9C8-44C4-91D7-A4DFA00AB82F}|MiniOgrenciBilgiSistemi\\MiniOgrenciBilgiSistemi.csproj|c:\\users\\alperen\\source\\repos\\miniogrencibilgisistemi\\miniogrencibilgisistemi\\models\\sinif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E65D402-E9C8-44C4-91D7-A4DFA00AB82F}|MiniOgrenciBilgiSistemi\\MiniOgrenciBilgiSistemi.csproj|solutionrelative:miniogrencibilgisistemi\\models\\sinif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 350,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ders.cs",
+              "DocumentMoniker": "C:\\Users\\Alperen\\source\\repos\\MiniOgrenciBilgiSistemi\\MiniOgrenciBilgiSistemi\\models\\Ders.cs",
+              "RelativeDocumentMoniker": "MiniOgrenciBilgiSistemi\\models\\Ders.cs",
+              "ToolTip": "C:\\Users\\Alperen\\source\\repos\\MiniOgrenciBilgiSistemi\\MiniOgrenciBilgiSistemi\\models\\Ders.cs",
+              "RelativeToolTip": "MiniOgrenciBilgiSistemi\\models\\Ders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:22:26.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OgrenciDers.cs",
+              "DocumentMoniker": "C:\\Users\\Alperen\\source\\repos\\MiniOgrenciBilgiSistemi\\MiniOgrenciBilgiSistemi\\models\\OgrenciDers.cs",
+              "RelativeDocumentMoniker": "MiniOgrenciBilgiSistemi\\models\\OgrenciDers.cs",
+              "ToolTip": "C:\\Users\\Alperen\\source\\repos\\MiniOgrenciBilgiSistemi\\MiniOgrenciBilgiSistemi\\models\\OgrenciDers.cs",
+              "RelativeToolTip": "MiniOgrenciBilgiSistemi\\models\\OgrenciDers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:21:59.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ogrenci.cs",
+              "DocumentMoniker": "C:\\Users\\Alperen\\source\\repos\\MiniOgrenciBilgiSistemi\\MiniOgrenciBilgiSistemi\\models\\Ogrenci.cs",
+              "RelativeDocumentMoniker": "MiniOgrenciBilgiSistemi\\models\\Ogrenci.cs",
+              "ToolTip": "C:\\Users\\Alperen\\source\\repos\\MiniOgrenciBilgiSistemi\\MiniOgrenciBilgiSistemi\\models\\Ogrenci.cs",
+              "RelativeToolTip": "MiniOgrenciBilgiSistemi\\models\\Ogrenci.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:10:15.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OgrenciYonetimDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Alperen\\source\\repos\\MiniOgrenciBilgiSistemi\\MiniOgrenciBilgiSistemi\\OgrenciYonetimDbContext.cs",
+              "RelativeDocumentMoniker": "MiniOgrenciBilgiSistemi\\OgrenciYonetimDbContext.cs",
+              "ToolTip": "C:\\Users\\Alperen\\source\\repos\\MiniOgrenciBilgiSistemi\\MiniOgrenciBilgiSistemi\\OgrenciYonetimDbContext.cs",
+              "RelativeToolTip": "MiniOgrenciBilgiSistemi\\OgrenciYonetimDbContext.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAiwFMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T13:59:12.248Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 350,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sinif.cs",
+              "DocumentMoniker": "C:\\Users\\Alperen\\source\\repos\\MiniOgrenciBilgiSistemi\\MiniOgrenciBilgiSistemi\\models\\Sinif.cs",
+              "RelativeDocumentMoniker": "MiniOgrenciBilgiSistemi\\models\\Sinif.cs",
+              "ToolTip": "C:\\Users\\Alperen\\source\\repos\\MiniOgrenciBilgiSistemi\\MiniOgrenciBilgiSistemi\\models\\Sinif.cs",
+              "RelativeToolTip": "MiniOgrenciBilgiSistemi\\models\\Sinif.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:10:31.365Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
