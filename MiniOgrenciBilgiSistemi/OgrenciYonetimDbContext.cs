@@ -9,11 +9,10 @@ namespace MiniOgrenciBilgiSistemi
 {
     internal class OgrenciYonetimDbContext: DbContext
     {
-        DbSet<models.Ogrenci> Ogrenciler { get; set; }
-        DbSet<models.Ders> Dersler { get; set; }
-        DbSet<models.Sinif> Siniflar { get; set; }
-        //DbSet<models.OgrenciDers> OgrenciDersler { get; set; }
-
+        public DbSet<models.Ogrenci> Ogrenciler { get; set; }
+        public DbSet<models.Ders> Dersler { get; set; }
+        public DbSet<models.Sinif> Siniflar { get; set; }
+        public DbSet<models.OgrenciDers> OgrenciDersler { get; set; }
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -40,11 +39,16 @@ namespace MiniOgrenciBilgiSistemi
                 .HasColumnType("varchar")
                 .HasMaxLength(30);
 
+
+            modelBuilder.Entity<models.Ogrenci>()
+                .HasIndex(ogr => ogr.Numara)
+                .IsUnique();
             modelBuilder.Entity<models.Ogrenci>()
                 .Property(ogr => ogr.Numara)
                 .IsRequired()
                 .HasColumnType("varchar")
                 .HasMaxLength(15);
+
 
             modelBuilder.Entity<models.Ogrenci>()
                 .HasOne(o => o.Sinif)
@@ -68,7 +72,7 @@ namespace MiniOgrenciBilgiSistemi
 
             #endregion
 
-            #region
+            #region OgrenciDersModel
 
             modelBuilder.Entity<models.OgrenciDers>()
                 .HasKey(od => new { od.OgrenciId, od.DersId });

@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             grpBox_ogrenciIslemleri = new GroupBox();
+            cmbBox_ogrSinif = new ComboBox();
+            lbl_ogrSinif = new Label();
+            btn_ogrBul = new Button();
+            btn_dersSecimi = new Button();
             btn_ogrSil = new Button();
             btn_ogrGuncelle = new Button();
             txtBox_ogrNumara = new TextBox();
@@ -54,10 +58,6 @@
             txtBox_dersKod = new TextBox();
             label1 = new Label();
             lbl_dersKod = new Label();
-            btn_dersSecimi = new Button();
-            button2 = new Button();
-            lbl_ogrSinif = new Label();
-            comboBox1 = new ComboBox();
             grpBox_ogrenciIslemleri.SuspendLayout();
             grpBox_sinifIslemleri.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)numUpD_sinifKontenjan).BeginInit();
@@ -67,9 +67,9 @@
             // 
             // grpBox_ogrenciIslemleri
             // 
-            grpBox_ogrenciIslemleri.Controls.Add(comboBox1);
+            grpBox_ogrenciIslemleri.Controls.Add(cmbBox_ogrSinif);
             grpBox_ogrenciIslemleri.Controls.Add(lbl_ogrSinif);
-            grpBox_ogrenciIslemleri.Controls.Add(button2);
+            grpBox_ogrenciIslemleri.Controls.Add(btn_ogrBul);
             grpBox_ogrenciIslemleri.Controls.Add(btn_dersSecimi);
             grpBox_ogrenciIslemleri.Controls.Add(btn_ogrSil);
             grpBox_ogrenciIslemleri.Controls.Add(btn_ogrGuncelle);
@@ -86,6 +86,42 @@
             grpBox_ogrenciIslemleri.TabIndex = 0;
             grpBox_ogrenciIslemleri.TabStop = false;
             grpBox_ogrenciIslemleri.Text = "Öğrenci İşlemleri";
+            // 
+            // cmbBox_ogrSinif
+            // 
+            cmbBox_ogrSinif.FormattingEnabled = true;
+            cmbBox_ogrSinif.Location = new Point(141, 185);
+            cmbBox_ogrSinif.Name = "cmbBox_ogrSinif";
+            cmbBox_ogrSinif.Size = new Size(147, 23);
+            cmbBox_ogrSinif.TabIndex = 12;
+            // 
+            // lbl_ogrSinif
+            // 
+            lbl_ogrSinif.AutoSize = true;
+            lbl_ogrSinif.Location = new Point(50, 188);
+            lbl_ogrSinif.Name = "lbl_ogrSinif";
+            lbl_ogrSinif.Size = new Size(75, 15);
+            lbl_ogrSinif.TabIndex = 11;
+            lbl_ogrSinif.Text = "Öğrenci Sınıf";
+            // 
+            // btn_ogrBul
+            // 
+            btn_ogrBul.Location = new Point(25, 304);
+            btn_ogrBul.Name = "btn_ogrBul";
+            btn_ogrBul.Size = new Size(120, 46);
+            btn_ogrBul.TabIndex = 10;
+            btn_ogrBul.Text = "Numaraya göre bul";
+            btn_ogrBul.UseVisualStyleBackColor = true;
+            btn_ogrBul.Click += btn_ogrBul_Click;
+            // 
+            // btn_dersSecimi
+            // 
+            btn_dersSecimi.Location = new Point(183, 304);
+            btn_dersSecimi.Name = "btn_dersSecimi";
+            btn_dersSecimi.Size = new Size(120, 46);
+            btn_dersSecimi.TabIndex = 9;
+            btn_dersSecimi.Text = "Ders Seçimi";
+            btn_dersSecimi.UseVisualStyleBackColor = true;
             // 
             // btn_ogrSil
             // 
@@ -104,6 +140,7 @@
             btn_ogrGuncelle.TabIndex = 7;
             btn_ogrGuncelle.Text = "Güncelle";
             btn_ogrGuncelle.UseVisualStyleBackColor = true;
+            btn_ogrGuncelle.Click += btn_ogrGuncelle_Click;
             // 
             // txtBox_ogrNumara
             // 
@@ -120,6 +157,7 @@
             btn_ogrEkle.TabIndex = 6;
             btn_ogrEkle.Text = "Ekle";
             btn_ogrEkle.UseVisualStyleBackColor = true;
+            btn_ogrEkle.Click += btn_ogrEkle_Click;
             // 
             // txtBox_ogrSoyad
             // 
@@ -312,41 +350,6 @@
             lbl_dersKod.TabIndex = 0;
             lbl_dersKod.Text = "Ders Kod";
             // 
-            // btn_dersSecimi
-            // 
-            btn_dersSecimi.Location = new Point(183, 304);
-            btn_dersSecimi.Name = "btn_dersSecimi";
-            btn_dersSecimi.Size = new Size(120, 46);
-            btn_dersSecimi.TabIndex = 9;
-            btn_dersSecimi.Text = "Ders Seçimi";
-            btn_dersSecimi.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(25, 304);
-            button2.Name = "button2";
-            button2.Size = new Size(120, 46);
-            button2.TabIndex = 10;
-            button2.Text = "Numaraya göre bul";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // lbl_ogrSinif
-            // 
-            lbl_ogrSinif.AutoSize = true;
-            lbl_ogrSinif.Location = new Point(50, 188);
-            lbl_ogrSinif.Name = "lbl_ogrSinif";
-            lbl_ogrSinif.Size = new Size(75, 15);
-            lbl_ogrSinif.TabIndex = 11;
-            lbl_ogrSinif.Text = "Öğrenci Sınıf";
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(141, 185);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(147, 23);
-            comboBox1.TabIndex = 12;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -397,8 +400,8 @@
         private Label label1;
         private Label lbl_dersKod;
         private Button btn_dersSecimi;
-        private Button button2;
-        private ComboBox comboBox1;
+        private Button btn_ogrBul;
+        private ComboBox cmbBox_ogrSinif;
         private Label lbl_ogrSinif;
     }
 }

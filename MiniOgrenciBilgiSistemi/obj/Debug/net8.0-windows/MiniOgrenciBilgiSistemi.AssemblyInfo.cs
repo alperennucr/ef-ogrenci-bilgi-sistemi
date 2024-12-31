@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniOgrenciBilgiSistemi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9fd9f029d6922ed126af298fe7f0b9256580832")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniOgrenciBilgiSistemi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniOgrenciBilgiSistemi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
